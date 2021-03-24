@@ -1,0 +1,17 @@
+{
+    "name": "misaki0929/yun-xin-helper",
+    "description": "网易云信",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+		"php": "^7.0.0",
+	    "ext-json": "*",
+	    "guzzlehttp/guzzle": "^6.3"
+	},
+	"autoload": {
+	    "psr-4": {
+	      "YunXinHelper\\": "src"
+	    }
+	}
+}
